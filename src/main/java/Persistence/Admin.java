@@ -23,7 +23,6 @@ public class Admin{
     }
 
     public Admin(String username, String parola) {
-        this.idAdmin = idAdmin;
         this.username = username;
         this.parola = parola;
     }
