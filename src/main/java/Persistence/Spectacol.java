@@ -1,12 +1,10 @@
 package Persistence;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Timestamp;
 
 @Entity
+@Table(name = "spectacol", schema ="opera")
 public class Spectacol {
     private int idSpectacol;
     private String titlu;

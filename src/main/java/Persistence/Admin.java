@@ -1,12 +1,10 @@
 package Persistence;
 
 import javax.persistence.*;
+import org.hibernate.*;
 
 @Entity
-@Table(name = "admin", schema = "opera")
-//@NamedQuery({
-  //      @NamedQuery(name="Admin.findById", query ="from Admin a where a.username=:username")
-//})
+@Table (name = "admin", schema ="opera")
 
 public class Admin{
     private int idAdmin;
@@ -16,8 +14,9 @@ public class Admin{
     public Admin() {
     }
 
+
     @Id
-    @Column(name = "id_admin", nullable = false)
+    @Column(name = "id_admin")
     public int getIdAdmin() {
         return idAdmin;
     }
@@ -31,8 +30,8 @@ public class Admin{
         this.idAdmin = idAdmin;
     }
 
-   // @Basic
-    @Column(name = "username", nullable = true, length = 255)
+    @Basic
+    @Column(name = "username")
     public String getUsername() {
         return username;
     }
@@ -42,7 +41,7 @@ public class Admin{
     }
 
     //@Basic
-    @Column(name = "parola", nullable = true, length = 255)
+    @Column(name = "parola")
     public String getParola() {
         return parola;
     }

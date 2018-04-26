@@ -1,11 +1,9 @@
 package Persistence;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name="bilet", schema = "opera")
 public class Bilet {
     private int idBilet;
     private Integer rand;
