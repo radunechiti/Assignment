@@ -11,6 +11,7 @@ public class Admin{
     private String username;
     private String parola;
 
+
     public Admin() {
     }
 

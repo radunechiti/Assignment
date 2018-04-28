@@ -1,5 +1,10 @@
+import Controller.Criptare;
 import Persistence.Admin;
 import Persistence.Bilet;
+import Controller.MainController;
+import View.AdminView;
+import View.CasierView;
+import View.LoginView;
 import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -23,24 +28,13 @@ public class Main {
     public static void main(String[] args){
 
 
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("org.hibernate.tutorial.jpa");
+        LoginView loginView = new LoginView();
+        AdminView adminView = new AdminView();
+        CasierView casierView = new CasierView();
+        MainController mainController = new MainController(loginView, adminView, casierView);
+        Criptare criptare = new Criptare();
+        System.out.println(criptare.securePassword("admin"));
 
-        EntityManager entityManager = entityManagerFactory.createEntityManager();
-
-        entityManager.getTransaction().begin();
-
-
-
-        Admin admin = new Admin("Ilie","parola");
-        Bilet bilet = new Bilet();
-
-        Admin admin1 = new Admin();
-
-        entityManager.persist(admin);
-        entityManager.getTransaction().commit();
-
-        entityManager.close();
-        entityManagerFactory.close();
 
 
 

@@ -14,6 +14,21 @@ public class Spectacol {
     private Timestamp dataPremiera;
     private Integer nrBilete;
 
+    public Spectacol()
+    {
+
+    }
+
+    public Spectacol(int idSpectacol, String titlu, String gen, String regia, String distributia, Timestamp dataPremiera, Integer nrBilete) {
+        this.idSpectacol = idSpectacol;
+        this.titlu = titlu;
+        this.gen = gen;
+        this.regia = regia;
+        this.distributia = distributia;
+        this.dataPremiera = dataPremiera;
+        this.nrBilete = nrBilete;
+    }
+
     @Id
     @Column(name = "id_spectacol", nullable = false)
     public int getIdSpectacol() {
@@ -24,8 +39,18 @@ public class Spectacol {
         this.idSpectacol = idSpectacol;
     }
 
+    public Spectacol(String titlu, String gen, String regia, String distributia, Timestamp dataPremiera, Integer nrBilete) {
+        this.titlu = titlu;
+        this.gen = gen;
+        this.regia = regia;
+        this.distributia = distributia;
+        this.dataPremiera = dataPremiera;
+        this.nrBilete = nrBilete;
+    }
+
     @Basic
     @Column(name = "titlu", nullable = true, length = 255)
+
     public String getTitlu() {
         return titlu;
     }

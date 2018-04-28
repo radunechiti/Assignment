@@ -9,9 +9,30 @@ public class Casier{
     private String username;
     private String parola;
     private String nume;
+    private boolean active;
+
+    public Casier(int idCasier, String username, String parola, String nume, boolean active) {
+        this.idCasier = idCasier;
+        this.username = username;
+        this.parola = parola;
+        this.nume = nume;
+        this.active = active;
+    }
+
+    public Casier(String username, String parola, String nume, boolean active) {
+        this.username = username;
+        this.parola = parola;
+        this.nume = nume;
+        this.active = active;
+
+    }
+
+    public Casier() {
+    }
 
     @Id
     @Column(name = "id_casier", nullable = false)
+
     public int getIdCasier() {
         return idCasier;
     }
@@ -48,6 +69,16 @@ public class Casier{
 
     public void setNume(String nume) {
         this.nume = nume;
+    }
+
+    @Basic
+    @Column(name = "status", nullable = true)
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
     }
 
     @Override
