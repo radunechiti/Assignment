@@ -1,6 +1,14 @@
 package Controller;
 
-import Persistence.*;
+import Persistence.DAO.AdminDAO;
+import Persistence.DAO.BiletDAO;
+import Persistence.DAO.CasierDAO;
+import Persistence.DAO.SpectacolDAO;
+import Persistence.Exports.ExportFactory;
+import Persistence.Model.Admin;
+import Persistence.Model.Bilet;
+import Persistence.Model.Casier;
+import Persistence.Model.Spectacol;
 import View.AdminView;
 import View.CasierView;
 import View.LoginView;
@@ -30,8 +38,8 @@ public class MainController {
         this.adminView=adminView;
         this.casierView=casierView;
 
-        this.loginView.ButtonSignIn(new SignIn_Listener());
-        this.loginView.ButtonSignUp(new SignUp_Listener());
+        this.loginView.ButtonSignInAdmin(new SignInAdmin_Listener());
+        this.loginView.ButtonSignInCasier(new SignInCasier_Listener());
 
         this.adminView.ClickTableCasier(new ClickTableCasier_Listener());
         this.adminView.ClickTableSpectacol(new ClickTableSpectacol_Listener());
@@ -289,7 +297,7 @@ public class MainController {
         public void mousePressed(java.awt.event.MouseEvent e) {}
         public void mouseReleased(java.awt.event.MouseEvent e) {}
     }
-    public class SignUp_Listener implements ActionListener
+    public class SignInCasier_Listener implements ActionListener
     {
         public void actionPerformed(ActionEvent e)
         {
@@ -297,8 +305,6 @@ public class MainController {
             String parola = loginView.getPasswordField1().getText();
             Criptare criptare = new Criptare();
                 parola=criptare.securePassword(parola);
-
-                System.out.println(parola);
                 Casier casier = new Casier(username, parola);
             CasierDAO casierDAO = new CasierDAO();
             boolean logare = casierDAO.findCasier(casier);
@@ -314,7 +320,7 @@ public class MainController {
 
         }
     }
-    public class SignIn_Listener implements ActionListener
+    public class SignInAdmin_Listener implements ActionListener
     {
         public void actionPerformed(ActionEvent e)
         {

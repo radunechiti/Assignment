@@ -7,10 +7,10 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
 
-        <class>Persistence.Admin</class>
-        <class>Persistence.Bilet</class>
-        <class>Persistence.Casier</class>
-        <class>Persistence.Spectacol</class>
+        <class>Persistence.Model.Admin</class>
+        <class>Persistence.Model.Bilet</class>
+        <class>Persistence.Model.Casier</class>
+        <class>Persistence.Model.Spectacol</class>
 
 
         <properties>

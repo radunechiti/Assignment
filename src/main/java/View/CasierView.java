@@ -1,7 +1,7 @@
 package View;
 
-        import Persistence.Bilet;
-        import Persistence.Spectacol;
+        import Persistence.Model.Bilet;
+        import Persistence.Model.Spectacol;
 
         import javax.swing.*;
         import javax.swing.table.DefaultTableModel;

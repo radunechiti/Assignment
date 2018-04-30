@@ -1,7 +1,8 @@
 package View;
 
-import Persistence.Casier;
-import Persistence.Spectacol;
+
+import Persistence.Model.Casier;
+import Persistence.Model.Spectacol;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

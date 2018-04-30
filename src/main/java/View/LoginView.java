@@ -11,12 +11,12 @@ public class LoginView extends JFrame{
     private JPasswordField passwordField1;
 
 
-    public void ButtonSignIn(ActionListener e)
+    public void ButtonSignInAdmin(ActionListener e)
     {
         signInButton.addActionListener(e);
     }
 
-    public void ButtonSignUp(ActionListener e)
+    public void ButtonSignInCasier(ActionListener e)
     {
         signUpButton.addActionListener(e);
     }
