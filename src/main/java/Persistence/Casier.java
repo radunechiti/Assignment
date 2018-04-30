@@ -19,11 +19,17 @@ public class Casier{
         this.active = active;
     }
 
+    public Casier(String username, String parola) {
+        this.username = username;
+        this.parola = parola;
+    }
+
     public Casier(String username, String parola, String nume, boolean active) {
         this.username = username;
         this.parola = parola;
         this.nume = nume;
         this.active = active;
+
 
     }
 

@@ -92,13 +92,13 @@ public class MainController {
                 ArrayList<Bilet> list = biletDAO.findBySpectacol(id_spectacol);
                 for(Bilet b: list)
                     if(b.getNumar()==bilet.getNumar() && b.getRand()==bilet.getRand() && b.getId_spectacol()==bilet.getId_spectacol())
-                        throw new Exception("Eroare");
+                        throw new Exception("Introduceti date valide");
                 biletDAO.insert(bilet);
                 casierView.showBilete(biletDAO.findBySpectacol(id_spectacol));
                 JOptionPane.showMessageDialog(null, "Felicitari! Ati adaugat un bilet nou.");
 
             }catch(Exception exp){
-                JOptionPane.showMessageDialog(null, exp.getMessage());
+                JOptionPane.showMessageDialog(null, "Introduceti date valide!");
             }
         }
     }
@@ -125,6 +125,7 @@ public class MainController {
                 SpectacolDAO spectacolDAO = new SpectacolDAO();
                 spectacolDAO.insert(spectacol);
                 adminView.showSpectacol(spectacolDAO.findAll());
+                casierView.showSpectacol(spectacolDAO.findAll());
                 JOptionPane.showMessageDialog(null, "Felicitari! Ati creat un spectacol nou.");
 
             }catch(Exception exp){
@@ -158,6 +159,7 @@ public class MainController {
                 SpectacolDAO spectacolDAO = new SpectacolDAO();
                 spectacolDAO.update(spectacol);
                 adminView.showSpectacol(spectacolDAO.findAll());
+                casierView.showSpectacol(spectacolDAO.findAll());
                 JOptionPane.showMessageDialog(null, "Felicitari! Ati facut update la un spectacol.");
 
             }catch(Exception exp){
@@ -176,6 +178,7 @@ public class MainController {
                 SpectacolDAO spectacolDAO = new SpectacolDAO();
                 spectacolDAO.delete(id);
                 adminView.showSpectacol(spectacolDAO.findAll());
+                casierView.showSpectacol(spectacolDAO.findAll());
                 JOptionPane.showMessageDialog(null, "Felicitari! Ati sters un spectacol.");
 
             }catch(Exception exp){
@@ -290,11 +293,25 @@ public class MainController {
     {
         public void actionPerformed(ActionEvent e)
         {
-            casierView.setVisible(true);
-            SpectacolDAO spectacolDAO = new SpectacolDAO();
-            casierView.showSpectacol(spectacolDAO.findAll());
-            BiletDAO biletDAO = new BiletDAO();
-            casierView.showBilete(biletDAO.findBySpectacol(1));
+            String username = loginView.getTextField1().getText();
+            String parola = loginView.getPasswordField1().getText();
+            Criptare criptare = new Criptare();
+                parola=criptare.securePassword(parola);
+
+                System.out.println(parola);
+                Casier casier = new Casier(username, parola);
+            CasierDAO casierDAO = new CasierDAO();
+            boolean logare = casierDAO.findCasier(casier);
+            if(logare) {
+                casierView.setVisible(true);
+                SpectacolDAO spectacolDAO = new SpectacolDAO();
+                casierView.showSpectacol(spectacolDAO.findAll());
+                BiletDAO biletDAO = new BiletDAO();
+                casierView.showBilete(biletDAO.findBySpectacol(1));
+            }
+            else
+                JOptionPane.showMessageDialog(null, "Casier invalid");
+
         }
     }
     public class SignIn_Listener implements ActionListener
@@ -315,6 +332,8 @@ public class MainController {
                 SpectacolDAO spectacolDAO = new SpectacolDAO();
                 adminView.showSpectacol(spectacolDAO.findAll());
             }
+            else
+                JOptionPane.showMessageDialog(null, "Admin invalid");
         }
     }
 }

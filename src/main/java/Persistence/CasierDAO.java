@@ -22,6 +22,22 @@ public class CasierDAO {
         entityManager.close();
         entityManagerFactory.close();
     }
+    public boolean findCasier(Casier casier)
+    {
+        entityManagerFactory = Persistence.createEntityManagerFactory("org.hibernate.tutorial.jpa");
+        entityManager = entityManagerFactory.createEntityManager();
+        Query query = entityManager.createQuery("select e from Casier e where e.username like :username and e.parola like :parola")
+                .setParameter("username", casier.getUsername())
+                .setParameter("parola", casier.getParola());
+
+        List<Casier> list = (List<Casier>) query.getResultList();
+        entityManagerFactory.close();
+
+        if(list.isEmpty())
+            return false;
+        else
+            return true;
+    }
 
     public ArrayList<Casier> findAll()
     {
