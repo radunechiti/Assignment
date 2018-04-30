@@ -8,6 +8,20 @@ public class Bilet {
     private int idBilet;
     private Integer rand;
     private Integer numar;
+    private Integer id_spectacol;
+    public Bilet()
+    {
+
+    }
+    @Basic
+    @Column(name ="id_spectacol", nullable=false)
+    public Integer getId_spectacol() {
+        return id_spectacol;
+    }
+
+    public void setId_spectacol(Integer id_spectacol) {
+        this.id_spectacol = id_spectacol;
+    }
 
     @Id
     @Column(name = "id_bilet", nullable = false)
@@ -19,8 +33,15 @@ public class Bilet {
         this.idBilet = idBilet;
     }
 
+    public Bilet(Integer rand, Integer numar, Integer id_spectacol) {
+        this.rand = rand;
+        this.numar = numar;
+        this.id_spectacol = id_spectacol;
+    }
+
     @Basic
-    @Column(name = "rand", nullable = true)
+
+    @Column(name = "rand", nullable = false)
     public Integer getRand() {
         return rand;
     }
@@ -30,7 +51,7 @@ public class Bilet {
     }
 
     @Basic
-    @Column(name = "numar", nullable = true)
+    @Column(name = "numar", nullable = false)
     public Integer getNumar() {
         return numar;
     }

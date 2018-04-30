@@ -18,9 +18,6 @@ public class AdminDAO {
     }
     public boolean findAdmin(Admin admin)
     {
-        System.out.println("Employee username :" + admin.getUsername());
-        System.out.println("Employee parola :" + admin.getParola());
-
         Query query = entityManager.createQuery("select e from Admin e where e.username like :username and e.parola like :parola")
                                     .setParameter("username", admin.getUsername())
                                     .setParameter("parola", admin.getParola());

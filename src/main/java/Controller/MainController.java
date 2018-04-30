@@ -13,6 +13,7 @@ import java.awt.event.MouseListener;
 import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 public class MainController {
@@ -34,6 +35,7 @@ public class MainController {
 
         this.adminView.ClickTableCasier(new ClickTableCasier_Listener());
         this.adminView.ClickTableSpectacol(new ClickTableSpectacol_Listener());
+        this.casierView.ClickTableBilet(new ClickTableBilet_Listener());
 
         this.adminView.ButtonInsertCasier(new ButtonInsertCasier_Listener());
         this.adminView.ButtonUpdateCasier(new ButtonUpdateCasier_Listener());
@@ -42,6 +44,63 @@ public class MainController {
         this.adminView.ButtonInsertSpectacol(new ButtonInsertSpectacol_Listener());
         this.adminView.ButtonUpdateSpectacol(new ButtonUpdateSpectacol_Listener());
         this.adminView.ButtonDeleteSpectacol(new ButtonDeleteSpectacol_Listener());
+
+        this.casierView.ButtonInsertBilet(new ButtonInsertBilet_Listener());
+        this.casierView.ButtonExportJSON(new ButtonExportJSON_Listener());
+        this.casierView.ButtonExportCSV(new ButtonExportCSV_Listener());
+    }
+    public class ButtonExportJSON_Listener implements ActionListener
+    {
+        public void actionPerformed(ActionEvent e)
+        {
+            int i = casierView.getTable1().getSelectedRow();
+            TableModel model = casierView.getTable1().getModel();
+            int id_spectacol = (Integer)model.getValueAt(i,0);
+            BiletDAO biletDAO = new BiletDAO();
+            ArrayList<Bilet> list = biletDAO.findBySpectacol(id_spectacol);
+            biletDAO.export(ExportFactory.getExport("JSON"),list);
+            JOptionPane.showMessageDialog(null,"JSON Succes!");
+        }
+    }
+    public class ButtonExportCSV_Listener implements ActionListener
+    {
+        public void actionPerformed(ActionEvent e)
+        {
+            int i = casierView.getTable1().getSelectedRow();
+            TableModel model = casierView.getTable1().getModel();
+            int id_spectacol = (Integer)model.getValueAt(i,0);
+            BiletDAO biletDAO = new BiletDAO();
+            ArrayList<Bilet> list = biletDAO.findBySpectacol(id_spectacol);
+            biletDAO.export(ExportFactory.getExport("CSV"),list);
+            JOptionPane.showMessageDialog(null,"CSV Succes!");
+        }
+    }
+    public class ButtonInsertBilet_Listener implements ActionListener
+    {
+        public void actionPerformed(ActionEvent e)
+        {
+            try {
+                int i = casierView.getTable1().getSelectedRow();
+                TableModel model = casierView.getTable1().getModel();
+                int id_spectacol = (Integer)model.getValueAt(i,0);
+
+                Integer rand = Integer.parseInt(casierView.getT2().getText());
+                Integer numar = Integer.parseInt(casierView.getT3().getText());
+
+                Bilet bilet = new Bilet(rand,numar, id_spectacol);
+                BiletDAO biletDAO = new BiletDAO();
+                ArrayList<Bilet> list = biletDAO.findBySpectacol(id_spectacol);
+                for(Bilet b: list)
+                    if(b.getNumar()==bilet.getNumar() && b.getRand()==bilet.getRand() && b.getId_spectacol()==bilet.getId_spectacol())
+                        throw new Exception("Eroare");
+                biletDAO.insert(bilet);
+                casierView.showBilete(biletDAO.findBySpectacol(id_spectacol));
+                JOptionPane.showMessageDialog(null, "Felicitari! Ati adaugat un bilet nou.");
+
+            }catch(Exception exp){
+                JOptionPane.showMessageDialog(null, exp.getMessage());
+            }
+        }
     }
     public class ButtonInsertSpectacol_Listener implements ActionListener
     {
@@ -210,11 +269,32 @@ public class MainController {
         public void mousePressed(java.awt.event.MouseEvent e) {}
         public void mouseReleased(java.awt.event.MouseEvent e) {}
     }
+    public class ClickTableBilet_Listener implements MouseListener
+    {
+        public void mouseClicked(java.awt.event.MouseEvent e)
+        {
+            casierView.showClickTableBilet();
+
+            int i = casierView.getTable1().getSelectedRow();
+            TableModel model = casierView.getTable1().getModel();
+            int id_spectacol = (Integer)model.getValueAt(i,0);
+            BiletDAO biletDAO = new BiletDAO();
+            casierView.showBilete(biletDAO.findBySpectacol(id_spectacol));
+        }
+        public void mouseEntered(java.awt.event.MouseEvent e) {}
+        public void mouseExited(java.awt.event.MouseEvent e) {}
+        public void mousePressed(java.awt.event.MouseEvent e) {}
+        public void mouseReleased(java.awt.event.MouseEvent e) {}
+    }
     public class SignUp_Listener implements ActionListener
     {
         public void actionPerformed(ActionEvent e)
         {
             casierView.setVisible(true);
+            SpectacolDAO spectacolDAO = new SpectacolDAO();
+            casierView.showSpectacol(spectacolDAO.findAll());
+            BiletDAO biletDAO = new BiletDAO();
+            casierView.showBilete(biletDAO.findBySpectacol(1));
         }
     }
     public class SignIn_Listener implements ActionListener

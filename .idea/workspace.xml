@@ -2,19 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aadf23e-02b2-4d5c-b0b9-ddb1b7180f9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e391d5ab-6eb2-4fb7-825f-0ebf35edbe99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e391d5ab-6eb2-4fb7-825f-0ebf35edbe99.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Persistence/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persistence/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Persistence/Casier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persistence/Casier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Persistence/Spectacol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persistence/Spectacol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/View/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/LoginView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/View/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/LoginView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/Casier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/Casier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Persistence/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persistence/AdminDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Persistence/Bilet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persistence/Bilet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Persistence/BiletDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persistence/BiletDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/AdminView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/AdminView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/CasierView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/CasierView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/CasierView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/CasierView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonDeleteCasier_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonDeleteCasier_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonDeleteSpectacol_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonDeleteSpectacol_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonInsertCasier_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonInsertCasier_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonInsertSpectacol_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonInsertSpectacol_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonUpdateCasier_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonUpdateCasier_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonUpdateSpectacol_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController$ButtonUpdateSpectacol_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController$ClickTableCasier_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController$ClickTableCasier_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController$ClickTableSpectacol_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController$ClickTableSpectacol_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController$SignIn_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController$SignIn_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController$SignUp_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController$SignUp_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/AdminDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/AdminDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/Bilet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/Bilet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/AdminView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/AdminView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/CasierView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/CasierView.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,201 +89,133 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Casier.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/Casier.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AdminDAO.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/AdminDAO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CasierDAO.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/CasierDAO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CasierView.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/View/CasierView.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CasierView.form" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/View/CasierView.form">
-              <provider selected="true" editor-type-id="ui-designer" />
-            </entry>
-          </file>
-          <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Controller/MainController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="class#ButtonInsertCasier_Listener#0;class#MainController#0" />
-                    <element signature="class#ButtonDeleteCasier_Listener#0;class#MainController#0" />
-                    <element signature="e#4492#4493#0" expanded="true" />
-                    <element signature="e#4548#4549#0" expanded="true" />
-                    <element signature="e#9248#9249#0" expanded="true" />
-                    <element signature="e#9303#9304#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AdminView.form" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/View/AdminView.form">
-              <provider selected="true" editor-type-id="ui-designer" />
-            </entry>
-          </file>
-          <file leaf-file-name="AdminView.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/View/AdminView.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-109">
-                  <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#2867#2868#0" expanded="true" />
-                    <element signature="e#2896#2897#0" expanded="true" />
-                    <element signature="e#2940#2941#0" expanded="true" />
-                    <element signature="e#2976#2977#0" expanded="true" />
-                    <element signature="e#3009#3010#0" expanded="true" />
-                    <element signature="e#3038#3039#0" expanded="true" />
-                    <element signature="e#3082#3083#0" expanded="true" />
-                    <element signature="e#3118#3119#0" expanded="true" />
-                    <element signature="e#4104#4105#0" expanded="true" />
-                    <element signature="e#4146#4147#0" expanded="true" />
-                    <element signature="e#4205#4206#0" expanded="true" />
-                    <element signature="e#4247#4248#0" expanded="true" />
-                    <element signature="e#4306#4307#0" expanded="true" />
-                    <element signature="e#4361#4362#0" expanded="true" />
-                    <element signature="e#4420#4421#0" expanded="true" />
-                    <element signature="e#4475#4476#0" expanded="true" />
-                    <element signature="e#4534#4535#0" expanded="true" />
-                    <element signature="e#4589#4590#0" expanded="true" />
-                    <element signature="e#4791#4792#0" expanded="true" />
-                    <element signature="e#4849#4850#0" expanded="true" />
-                    <element signature="e#4911#4912#0" expanded="true" />
-                    <element signature="e#4969#4970#0" expanded="true" />
-                    <element signature="e#5031#5032#0" expanded="true" />
-                    <element signature="e#5089#5090#0" expanded="true" />
-                    <element signature="e#4622#4623#0" expanded="true" />
-                    <element signature="e#4647#4648#0" expanded="true" />
-                    <element signature="e#4687#4688#0" expanded="true" />
-                    <element signature="e#4715#4716#0" expanded="true" />
-                    <element signature="e#4748#4749#0" expanded="true" />
-                    <element signature="e#4773#4774#0" expanded="true" />
-                    <element signature="e#4813#4814#0" expanded="true" />
-                    <element signature="e#4841#4842#0" expanded="true" />
-                    <element signature="e#4874#4875#0" expanded="true" />
-                    <element signature="e#4899#4900#0" expanded="true" />
-                    <element signature="e#4939#4940#0" expanded="true" />
-                    <element signature="e#4967#4968#0" expanded="true" />
-                    <element signature="e#5006#5007#0" expanded="true" />
-                    <element signature="e#5038#5039#0" expanded="true" />
-                    <element signature="e#5091#5092#0" expanded="true" />
-                    <element signature="e#5133#5134#0" expanded="true" />
-                    <element signature="e#5167#5168#0" expanded="true" />
-                    <element signature="e#5193#5194#0" expanded="true" />
-                    <element signature="e#5235#5236#0" expanded="true" />
-                    <element signature="e#5265#5266#0" expanded="true" />
-                    <element signature="e#5304#5305#0" expanded="true" />
-                    <element signature="e#5336#5337#0" expanded="true" />
-                    <element signature="e#5389#5390#0" expanded="true" />
-                    <element signature="e#5431#5432#0" expanded="true" />
-                    <element signature="e#5465#5466#0" expanded="true" />
-                    <element signature="e#5491#5492#0" expanded="true" />
-                    <element signature="e#5533#5534#0" expanded="true" />
-                    <element signature="e#5563#5564#0" expanded="true" />
-                    <element signature="e#5597#5598#0" expanded="true" />
-                    <element signature="e#5623#5624#0" expanded="true" />
-                    <element signature="e#5665#5666#0" expanded="true" />
-                    <element signature="e#5695#5696#0" expanded="true" />
-                    <element signature="e#5729#5730#0" expanded="true" />
-                    <element signature="e#5755#5756#0" expanded="true" />
-                    <element signature="e#5797#5798#0" expanded="true" />
-                    <element signature="e#5827#5828#0" expanded="true" />
-                    <element signature="e#5861#5862#0" expanded="true" />
-                    <element signature="e#5887#5888#0" expanded="true" />
-                    <element signature="e#5929#5930#0" expanded="true" />
-                    <element signature="e#5959#5960#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BiletDAO.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/BiletDAO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="CasierView.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/View/CasierView.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="685">
-                  <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CasierView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/CasierView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2743#2744#0" expanded="true" />
+                <element signature="e#2785#2786#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#ButtonInsertCasier_Listener#0;class#MainController#0" />
+                <element signature="class#ButtonUpdateCasier_Listener#0;class#MainController#0" />
+                <element signature="class#ButtonDeleteCasier_Listener#0;class#MainController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExportJSON.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/ExportJSON.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Export.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/Export.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExportCSV.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/ExportCSV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/AdminView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1845">
+              <caret line="142" column="4" selection-start-line="142" selection-start-column="4" selection-end-line="145" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5167#5168#0" expanded="true" />
+                <element signature="e#5225#5226#0" expanded="true" />
+                <element signature="e#5569#5570#0" expanded="true" />
+                <element signature="e#5597#5598#0" expanded="true" />
+                <element signature="e#5695#5696#0" expanded="true" />
+                <element signature="e#5723#5724#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BiletDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/BiletDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExportFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/ExportFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bilet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/Bilet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-159">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -293,26 +236,30 @@
         <option value="$PROJECT_DIR$/src/main/java/Persistence/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/hibernate.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Persistence/Bilet.java" />
         <option value="$PROJECT_DIR$/src/main/java/View/Login.form" />
         <option value="$PROJECT_DIR$/src/main/java/View/LoginView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/View/AdminView.form" />
         <option value="$PROJECT_DIR$/src/main/java/View/LoginView.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controller/Criptare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Persistence/AdminDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Persistence/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/java/Persistence/Casier.java" />
         <option value="$PROJECT_DIR$/src/main/java/Persistence/CasierDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Persistence/Spectacol.java" />
         <option value="$PROJECT_DIR$/src/main/java/View/AdminView.java" />
         <option value="$PROJECT_DIR$/src/main/java/Persistence/SpectacolDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/View/CasierView.form" />
-        <option value="$PROJECT_DIR$/src/main/java/Controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Persistence/AdminDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/AdminView.form" />
+        <option value="$PROJECT_DIR$/src/main/java/View/CasierView.form" />
         <option value="$PROJECT_DIR$/src/main/java/View/CasierView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Persistence/Bilet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Persistence/Export.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Persistence/ExportFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Persistence/BiletDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Persistence/ExportCSV.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Persistence/ExportJSON.java" />
       </list>
     </option>
   </component>
@@ -338,6 +285,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -392,24 +340,6 @@
               <item name="Opera" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="AdminView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="opera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Opera" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="CasierView" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="opera" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Opera" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -439,7 +369,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,8 +386,9 @@
     <property name="project.structure.side.proportion" value="0.43333334" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Persistence" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -467,9 +397,8 @@
       <recent name="Persistence" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Persistence" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -635,15 +564,19 @@
       <workItem from="1524698027814" duration="8696000" />
       <workItem from="1524776969758" duration="2327000" />
       <workItem from="1524779597681" duration="5518000" />
-      <workItem from="1524875154050" duration="8129000" />
+      <workItem from="1524875154050" duration="8278000" />
+      <workItem from="1524891774740" duration="84000" />
+      <workItem from="1524892933127" duration="103000" />
+      <workItem from="1524893124587" duration="4874000" />
+      <workItem from="1524950634276" duration="4399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58678000" />
+    <option name="totallyTimeSpent" value="68287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="722" y="0" width="718" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -658,17 +591,17 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985849" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3207547" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.31737345" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3207547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2346698" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Persistence" order="2" sideWeight="0.5038168" side_tool="true" weight="0.15555556" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49618322" visible="true" weight="0.22013889" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49618322" weight="0.42339832" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -692,20 +625,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -910,13 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -925,13 +837,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/Bilet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/View/LoginView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -966,38 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/SpectacolDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/CasierView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/AdminView.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#ButtonInsertCasier_Listener#0;class#MainController#0" />
-            <element signature="class#ButtonDeleteCasier_Listener#0;class#MainController#0" />
-            <element signature="e#4492#4493#0" expanded="true" />
-            <element signature="e#4548#4549#0" expanded="true" />
-            <element signature="e#9248#9249#0" expanded="true" />
-            <element signature="e#9303#9304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/Casier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1007,8 +880,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="210">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/SpectacolDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/CasierDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1017,18 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/AdminDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/CasierView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1037,92 +920,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/View/AdminView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        <state relative-caret-position="1845">
+          <caret line="142" column="4" selection-start-line="142" selection-start-column="4" selection-end-line="145" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2867#2868#0" expanded="true" />
-            <element signature="e#2896#2897#0" expanded="true" />
-            <element signature="e#2940#2941#0" expanded="true" />
-            <element signature="e#2976#2977#0" expanded="true" />
-            <element signature="e#3009#3010#0" expanded="true" />
-            <element signature="e#3038#3039#0" expanded="true" />
-            <element signature="e#3082#3083#0" expanded="true" />
-            <element signature="e#3118#3119#0" expanded="true" />
-            <element signature="e#4104#4105#0" expanded="true" />
-            <element signature="e#4146#4147#0" expanded="true" />
-            <element signature="e#4205#4206#0" expanded="true" />
-            <element signature="e#4247#4248#0" expanded="true" />
-            <element signature="e#4306#4307#0" expanded="true" />
-            <element signature="e#4361#4362#0" expanded="true" />
-            <element signature="e#4420#4421#0" expanded="true" />
-            <element signature="e#4475#4476#0" expanded="true" />
-            <element signature="e#4534#4535#0" expanded="true" />
-            <element signature="e#4589#4590#0" expanded="true" />
-            <element signature="e#4791#4792#0" expanded="true" />
-            <element signature="e#4849#4850#0" expanded="true" />
-            <element signature="e#4911#4912#0" expanded="true" />
-            <element signature="e#4969#4970#0" expanded="true" />
-            <element signature="e#5031#5032#0" expanded="true" />
-            <element signature="e#5089#5090#0" expanded="true" />
-            <element signature="e#4622#4623#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#4687#4688#0" expanded="true" />
-            <element signature="e#4715#4716#0" expanded="true" />
-            <element signature="e#4748#4749#0" expanded="true" />
-            <element signature="e#4773#4774#0" expanded="true" />
-            <element signature="e#4813#4814#0" expanded="true" />
-            <element signature="e#4841#4842#0" expanded="true" />
-            <element signature="e#4874#4875#0" expanded="true" />
-            <element signature="e#4899#4900#0" expanded="true" />
-            <element signature="e#4939#4940#0" expanded="true" />
-            <element signature="e#4967#4968#0" expanded="true" />
-            <element signature="e#5006#5007#0" expanded="true" />
-            <element signature="e#5038#5039#0" expanded="true" />
-            <element signature="e#5091#5092#0" expanded="true" />
-            <element signature="e#5133#5134#0" expanded="true" />
             <element signature="e#5167#5168#0" expanded="true" />
-            <element signature="e#5193#5194#0" expanded="true" />
-            <element signature="e#5235#5236#0" expanded="true" />
-            <element signature="e#5265#5266#0" expanded="true" />
-            <element signature="e#5304#5305#0" expanded="true" />
-            <element signature="e#5336#5337#0" expanded="true" />
-            <element signature="e#5389#5390#0" expanded="true" />
-            <element signature="e#5431#5432#0" expanded="true" />
-            <element signature="e#5465#5466#0" expanded="true" />
-            <element signature="e#5491#5492#0" expanded="true" />
-            <element signature="e#5533#5534#0" expanded="true" />
-            <element signature="e#5563#5564#0" expanded="true" />
+            <element signature="e#5225#5226#0" expanded="true" />
+            <element signature="e#5569#5570#0" expanded="true" />
             <element signature="e#5597#5598#0" expanded="true" />
-            <element signature="e#5623#5624#0" expanded="true" />
-            <element signature="e#5665#5666#0" expanded="true" />
             <element signature="e#5695#5696#0" expanded="true" />
-            <element signature="e#5729#5730#0" expanded="true" />
-            <element signature="e#5755#5756#0" expanded="true" />
-            <element signature="e#5797#5798#0" expanded="true" />
-            <element signature="e#5827#5828#0" expanded="true" />
-            <element signature="e#5861#5862#0" expanded="true" />
-            <element signature="e#5887#5888#0" expanded="true" />
-            <element signature="e#5929#5930#0" expanded="true" />
-            <element signature="e#5959#5960#0" expanded="true" />
+            <element signature="e#5723#5724#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/CasierDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/CasierView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="1140">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2743#2744#0" expanded="true" />
+            <element signature="e#2785#2786#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/ExportFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/BiletDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="555">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/Export.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/Bilet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/ExportCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ButtonInsertCasier_Listener#0;class#MainController#0" />
+            <element signature="class#ButtonUpdateCasier_Listener#0;class#MainController#0" />
+            <element signature="class#ButtonDeleteCasier_Listener#0;class#MainController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Persistence/ExportJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
